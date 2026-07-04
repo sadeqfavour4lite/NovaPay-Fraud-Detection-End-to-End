@@ -154,3 +154,25 @@ Run notebooks from the repository root in this order:
 ## Notes for Reviewers
 
 This repository intentionally keeps the original notebooks as the project narrative and exposes reusable logic in `src/` and `api/` for maintainability. Generated figures and intermediate experiment outputs can be recreated by running the notebooks in order.
+
+A Workflow Diagram
+
+Raw Data
+   |
+   ↓
+Data Cleaning
+   |
+   ↓
+Feature Engineering
+   |
+   ↓
+Model Training
+   |
+   ↓
+Explainability (SHAP)
+   |
+   ↓
+FastAPI Deployment
+   |
+   ↓
+Docker Container
