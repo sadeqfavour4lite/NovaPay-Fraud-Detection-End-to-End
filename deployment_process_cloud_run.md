@@ -332,4 +332,3 @@ Fraud Score + Explanation
 
 The NovaPay machine learning model was successfully converted from a notebook experiment into a cloud-hosted production fraud detection service using FastAPI, Docker, Google Cloud Run, an XGBoost fraud model, and REST API architecture.
 
-This deployment process should be included in the final `NovaPay_Fraud_Report.pdf` deployment section and committed to the GitHub repository so other analysts can reproduce the deployment and interact with the live fraud scoring API.
